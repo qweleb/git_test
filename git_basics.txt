@@ -1,0 +1,36 @@
+When using the Terminal, always ensure you are in the right 
+directory before making changes.
+
+The directory for this project is /repos/git_test/
+
+Once in this directory, to start making changes using VSCode 
+enter the following terminal command:
+
+    $ code .
+
+This will open VSCode and allow you to make changes.
+Save changes following standard Mac procedure (Cmd + S)
+
+Back in the terminal, run the following commands:
+
+    $ git status
+
+(returns the status of the repository. unsaved changes will appear
+in red)
+
+    $ git add .
+    //
+    $ git add filename.ext
+
+(this will add all unsaved files or a specific file to the commit list)
+
+    $ git commit -m "Comment"
+    //
+    $ git commit
+
+(this will commit changes with the comment provided in terminal, or if
+no comment is given, it will open VSCode for you to add comments there.)
+
+    $ git push
+
+(this will push the changes, and update the repository on GitHub)
