@@ -1,0 +1,45 @@
+* {
+    font-family: 'Poppins', Verdana, Tahoma, sans-serif;
+}
+
+#heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#blackboard {
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    border: 6px solid red;
+    width: 800px;
+    height: 550px;
+}
+
+.demo_box {
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+    font-size: 12px;
+}
+
+.contents_box {
+    background-color: honeydew;
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.demo_1 {
+    background-color: red;
+    color: white;
+    border: 10px solid rgb(247, 158, 158);
+    padding: 10px;
+}
+
+.demo_2 {
+    background-color: blue;
+    color: white;
+}
+
